@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "林弘基"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/나.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "hiroki's blog"
   location         : "daegu republic of korea"
   email            :
