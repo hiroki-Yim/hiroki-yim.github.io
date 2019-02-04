@@ -24,8 +24,6 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..2,147,483,647].
 ---
-java
-​``` 
 
 	public static void main(String[] args) {
 		int A[] = {1,2,3,4,3,2,1,6,4,6,999999,12};
@@ -44,5 +42,3 @@ java
 		System.out.println(temp);
 		
 	}
-
-​```
