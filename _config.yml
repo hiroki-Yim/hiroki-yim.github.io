@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme: "minimal-mistakes-jekyll"
-# remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#theme: "minimal-mistakes-jekyll"
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default" #  "dark" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "ko-KR"
@@ -24,7 +24,7 @@ url: "https://hiroki-yim.github.io"
 baseurl: ""
 repository: "hiroki-Yim/hiroki-yim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: "/assets/images/logo.PNG" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo: "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: "IT 초보 개발자 노트" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
@@ -280,7 +280,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false # true
+      #comments: false # true
       share: true
       related: true
   #>>>>>>>>>>>>>>>>>>> 여기서부터 추가 됨

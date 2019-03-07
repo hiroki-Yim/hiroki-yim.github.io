@@ -2,13 +2,13 @@
 title: "First Jekyll Post!"
 date: 2019-01-17 12:45:00 -0400
 categories: jekyll update
-author_profile: true
-read_time: true
-toc: true #Table Of Contents 목차 보여줌
-toc_label: "My Table of Contents" # toc 이름 정의
-toc_icon: "cog" #font Awesome아이콘으로 toc 아이콘 설정
-toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
-link: https://github.com # Direct Link 만들기
+# author_profile: true
+# read_time: true
+# toc: true #Table Of Contents 목차 보여줌
+# toc_label: "My Table of Contents" # toc 이름 정의
+# toc_icon: "cog" #font Awesome아이콘으로 toc 아이콘 설정
+# toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
+# link: https://github.com # Direct Link 만들기
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
