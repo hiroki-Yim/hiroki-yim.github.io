@@ -6,7 +6,8 @@ categories: codility practice
 
 Codility 1번 문제 binary Gap
 
---- 
+---
+
 problem
 A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.
 
@@ -21,23 +22,24 @@ For example, given N = 1041 the function should return 5, because N has binary r
 Write an efficient algorithm for the following assumptions : N is an integer within the range [1..2,147,483,647].
 
 ---
-	public static void main(String[] args) {
-		
-		int N = 	1234;
-		int count = 0;
-		int result = 0;
-		
-		String binary = Integer.toBinaryString(N);
-		String binaArr[] = binary.split("");		
-		for (int i=0; i<binaArr.length; i++) {
-			if(binaArr[i].equals("0")) {
-				count++;
-			}else if(binaArr[i].equals("1")) {
-				if(result<count) {
-					result = count;
-				}
-				count = 0;
-			}
-		}
-		System.out.println(result);
-	}
+
+    public static void main(String[] args) {
+
+    	int N = 	1234;
+    	int count = 0;
+    	int result = 0;
+
+    	String binary = Integer.toBinaryString(N);
+    	String binaArr[] = binary.split("");
+    	for (int i=0; i<binaArr.length; i++) {
+    		if(binaArr[i].equals("0")) {
+    			count++;
+    		}else if(binaArr[i].equals("1")) {
+    			if(result<count) {
+    				result = count;
+    			}
+    			count = 0;
+    		}
+    	}
+    	System.out.println(result);
+    }
