@@ -107,8 +107,8 @@ analytics:
 author:
   name: "林弘基"
   avatar: "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "hiroki's blog"
-  location: "daegu republic of korea"
+  bio: "ヒロキのIT開発ノート"
+  location: "Daegu Republic Of Korea"
   email:
   links:
     - label: "Email"
@@ -128,7 +128,7 @@ author:
       url: "https://github.com/hiroki-Yim"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/hongki_95/"
 
 # Site Footer
 footer:
