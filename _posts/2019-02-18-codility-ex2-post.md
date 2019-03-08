@@ -4,7 +4,7 @@ date: "19-02-18 4:10pm"
 categories: codility practice
 ---
 
-Codility 2번 문제 CyclicRotation
+**Codility 2번 문제 CyclicRotation**
 
 ---
 
@@ -50,6 +50,7 @@ In your solution, focus on correctness. The performance of your solution will no
 
 ---
 
+```java
     	public static void main(String[] args) {
     	int A[] = new int [] {1,2,3,4,5,6,7};
     	int K = 3;
@@ -74,3 +75,4 @@ In your solution, focus on correctness. The performance of your solution will no
             }	//만약 배열의 크기가 이상한 것이 들어오면 그냥 그배열 리턴해줌
         	return A;
         }
+```

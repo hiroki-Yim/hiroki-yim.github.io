@@ -4,7 +4,7 @@ date: "19-01-30 3:10am"
 categories: codility practice
 ---
 
-Codility 1번 문제 binary Gap
+**Codility 1번 문제 binary Gap**
 
 ---
 
@@ -23,6 +23,7 @@ Write an efficient algorithm for the following assumptions : N is an integer wit
 
 ---
 
+```java
     public static void main(String[] args) {
 
     	int N = 	1234;
@@ -43,3 +44,4 @@ Write an efficient algorithm for the following assumptions : N is an integer wit
     	}
     	System.out.println(result);
     }
+```
