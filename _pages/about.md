@@ -7,8 +7,6 @@ title: About
 모두가 즐길 수 있는 웹 풀스텍 개발을 지향하고 있습니다.<br/>
 앞으로 공부한 내용을 정리하는 포스팅을 할 예정입니다.
 
-## [Go To Website](https://hiroki-yim.github.io/)
-
 ## Personal Blog
 
 본 블로그는 [Jekyll mmistakes themes](https://github.com/mmistakes/minimal-mistakes) 을 기반으로 작성되었습니다.<br/>
