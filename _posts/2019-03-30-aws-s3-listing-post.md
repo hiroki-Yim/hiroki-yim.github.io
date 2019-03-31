@@ -18,7 +18,7 @@ categories: aws s3 開発日記
 작업하는 에디터마다 폴더를 생성하여 리소스를 관리할 수 있도록 해주어야 했기 때문에 Aws의 S3를 이용하기로 하였다.
 
 ![AwsS3](https://user-images.githubusercontent.com/33077726/55275614-fcb61000-532b-11e9-9063-dd32c1731af4.png)
-(웹에서 버킷을 접근하여 본인이 업로드한 리소스를 컨트롤 할 수 있게 만들고 싶었음)
+(웹에서 버킷으로 접근하여 본인이 업로드한 리소스를 컨트롤 할 수 있게 만들고 싶었음)
 
 ![image](https://user-images.githubusercontent.com/33077726/55275652-75b56780-532c-11e9-964d-12937be29938.png)
 먼저, 만들고 있었던 방식은 s3 버킷에 직접 접근하여 file과, directory들을 가져와서
