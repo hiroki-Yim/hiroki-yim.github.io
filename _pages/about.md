@@ -1,11 +1,17 @@
 ---
+layout: page
 title: About
+permalink: /about/
 ---
 
-# 임홍기(hiroki)
+## About
+
+### 임홍기(弘基（Hiroki）)
 
 모두가 즐길 수 있는 웹 풀스텍 개발을 지향하고 있습니다.<br/>
 앞으로 공부한 내용을 정리하는 포스팅을 할 예정입니다.
+
+## [Go To Website](https://hiroki-yim.github.io/)
 
 ## Personal Blog
 

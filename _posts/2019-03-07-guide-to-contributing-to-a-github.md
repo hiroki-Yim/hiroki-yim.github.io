@@ -1,5 +1,5 @@
 ---
-title: "깃허브에서 협업하기 (라라벨)"
+title: "깃허브에서 협업하기 (라라벨)　GITHUBで協業しよう（ララベル）"
 date: 2019-03-07 10:41:00
 categories: github contributing
 ---

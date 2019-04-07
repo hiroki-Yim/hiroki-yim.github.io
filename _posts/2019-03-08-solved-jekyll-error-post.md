@@ -1,6 +1,6 @@
 ---
-title: "Github.io Blog, Jekyll 에러 해결기록"
-date: 2019-03-08 08:03:00
+title: "Github.io Blog, Jekyll 에러 해결기록（GITHUBブログエラー解決記録）"
+date: "2019-03-08 08:03:00"
 categories: github error jekyll 開発日記
 ---
 
