@@ -1,10 +1,12 @@
 ---
-title: "Github.io Blog, Jekyll 에러 해결기록（GITHUBブログエラー解決記録）"
+title: "Github.io Blog, Jekyll 에러 해결기록"
 date: "2019-03-08 08:03:00"
 categories: github error jekyll 開発日記
 ---
 
 ## happening
+
+(GITHUB ブログエラー解決記録)
 
 github.io를 이용해 정적 블로그를 무료로, 그것도 쉽게 구축할 수 있다는 소식을 접하여 commit + bloging을 하고자 인터넷을 찾아 구축하게 되었다.
 그러던 중 다른 화려한 git 블로그를 접하게 되면서 theme적용을 결심하게 되었다.[Imreplay님의 JEKYLL + Github.io 블로그 구축](https://imreplay.com/blogging/minimal-mistakes-%ED%85%8C%EB%A7%88%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-githubio-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/)

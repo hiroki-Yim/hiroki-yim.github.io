@@ -1,7 +1,14 @@
 ---
-title: "aws s3를 이용하여 리소스 리스팅하기 (S3を使ってS３のフォルダリソースをリスティングしてみよう）"
+title: "aws s3를 이용하여 리소스 리스팅하기"
 date: "2019-03-30 21:00:00"
 categories: aws s3 開発日記
+# author_profile: true
+# read_time: true
+# toc: true #Table Of Contents 목차 보여줌
+# toc_label: "My Table of Contents" # toc 이름 정의
+# toc_icon: "cog" #font Awesome아이콘으로 toc 아이콘 설정
+# toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
+# link: https://github.com # Direct Link 만들기
 ---
 
 ## 들어가며
