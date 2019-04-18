@@ -2,6 +2,12 @@
 title: "깃허브에서 협업하기 (라라벨)"
 date: 2019-03-07 10:41:00
 categories: github contributing
+author_profile: true
+read_time: true
+toc: true #Table Of Contents 목차 보여줌
+toc_label: "Index" # toc 이름 정의
+# toc_icon: "cog" #font Awesome아이콘으로 toc 아이콘 설정
+toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
 ---
 
 ## 참고한 블로그

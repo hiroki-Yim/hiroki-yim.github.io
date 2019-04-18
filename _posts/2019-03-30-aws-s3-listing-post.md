@@ -2,13 +2,12 @@
 title: "aws s3를 이용하여 리소스 리스팅하기"
 date: "2019-03-30 21:00:00"
 categories: aws s3 開発日記
-# author_profile: true
-# read_time: true
-# toc: true #Table Of Contents 목차 보여줌
-# toc_label: "My Table of Contents" # toc 이름 정의
+author_profile: true
+read_time: true
+toc: true #Table Of Contents 목차 보여줌
+toc_label: "Index" # toc 이름 정의
 # toc_icon: "cog" #font Awesome아이콘으로 toc 아이콘 설정
-# toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
-# link: https://github.com # Direct Link 만들기
+toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
 ---
 
 ## 들어가며
@@ -16,9 +15,10 @@ categories: aws s3 開発日記
 이번 팀 프로젝트에 필요한 기능 중 하나인 aws s3 리소스 관리 시스템
 (listing 하기 전에는 로컬에서 파일을 관리했다.)
 
-![folder](https://user-images.githubusercontent.com/33077726/55275514-abf1e780-532a-11e9-97a6-b8c4b51b9e09.png)
+![image](https://user-images.githubusercontent.com/33077726/56078958-b03cfb00-5e28-11e9-94c2-9c8939a6f169.png)
 (이런 식으로)
-![resource](https://user-images.githubusercontent.com/33077726/55275517-b0b69b80-532a-11e9-9a45-f83abb0b9483.png)
+
+![image](https://user-images.githubusercontent.com/33077726/56078962-b3d08200-5e28-11e9-8a85-827db0c20518.png)
 (폴더와 리소스 부분)
 
 로컬에서 해당 폴더와 리소스를 불러와서 작업하던 형식이었지만, 여러 회원들에게 각자 폴더를 할당 해 주어야 했고,

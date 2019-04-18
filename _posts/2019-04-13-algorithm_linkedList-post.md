@@ -1,16 +1,18 @@
 ---
 title: "LinkedList의 특성과 ArrayList와의 차이"
 date: "2019-04-13 20:10:00"
-categories: algorithm study dataStructure
+categories: study algorithm dataStructure
 author_profile: true
 read_time: true
 toc: true #Table Of Contents 목차 보여줌
-toc_label: "Algorithm Practice" # toc 이름 정의
+toc_label: "Index" # toc 이름 정의
 # toc_icon: "cog" #font Awesome아이콘으로 toc 아이콘 설정
 toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
 ---
 
 # Linked list
+
+![image](https://user-images.githubusercontent.com/33077726/56078921-65bb7e80-5e28-11e9-81f5-d71a472e890f.png)
 
 Linked List - 연결된 리스트
 Linked List는 pointer 또는 참조값(next)로 값을 가져오기 때문에 메모리가 허용하는 한 node를 무한대로 키울 수 있다.
@@ -31,20 +33,18 @@ LinekdList - element(node)들이 흩어져 있고 **서로 연결(link)되어 �
 - Linked List
   ![image](https://user-images.githubusercontent.com/33077726/56077360-36037b00-5e16-11e9-883e-f2f1a1f5f337.png)
 
-#### ArrayList와 LinkedList의 핵심적인 차이
+### ArrayList와 LinkedList의 핵심적인 차이
 
 1. Array의 경우 element를 중간에 add/delete 할 경우 해당 element 뒤에 있는 **모든 element의 자리 이동이 필요함.**
-
-- 그래서 Array는 add/delete가 느림
+   그래서 Array는 add/delete가 느림
 
 2. LinkedList의 경우 add/delete 될 element의 이전, 이후 노드의 **참조값(next)만 변경하면 됨.**
-
-- 때문에 속도가 빠름
+   때문에 속도가 빠름
 
 3. 그림으로 이해하는 차이
    ![image](https://user-images.githubusercontent.com/33077726/56078486-87fecd80-5e23-11e9-8a1e-b4820be97fcd.png)
 
-**장점**
+**간략하게**
 
 - ArrayList 는 Random Access Memory(Ram)을 사용한 조회로 index조회가 빠름
 - head의 next의 next의 next를 찾아야 해서 느림
@@ -58,14 +58,15 @@ LinekdList - element(node)들이 흩어져 있고 **서로 연결(link)되어 �
 1. 첫 번째 변수는 저장되는 **값(data)**
 2. 두 번째 변수(Link Field)는 **다음 노드의 정보**
 
-첫번 째 노**드가 무엇인가를 HEAD필드가 가지고 있다.**
+첫번 째 **노드가 무엇인가를 HEAD필드가 가지고 있다.**
+
 객체 지향에서는 **객체에 데이터 필드(value)와 링크 필드(next)를 만들어서 구현**한다.
 
 ## Head
 
 ### 데이터의 추가
 
-#### 시작(head) 부분에 추가 (add)
+### 시작(head) 부분에 추가 (add)
 
 ```java
 
@@ -83,23 +84,27 @@ head = temp         // 3.새로 만들어진 노드가 첫번째 노드가 되�
 2. ![image](https://user-images.githubusercontent.com/33077726/56077509-05244580-5e18-11e9-91ba-42aaeb78bb0d.png)
 3. ![image](https://user-images.githubusercontent.com/33077726/56077511-08b7cc80-5e18-11e9-923f-d8b32618bf3c.png)
 
-#### 특정한 위치(k)에 있는 Element 추가하기(add)
+### 특정한 위치(k)에 있는 Element 추가하기(add)
 
 ```java
 
-Vartex temp1 = head                 // 1. head를 참조해서 첫번째 노드를 찾는다.
+Vartex temp1 = head
+// 1. head를 참조해서 첫번째 노드를 찾는다.
 
-// 23의 자리에 새로운 노드를 위치시키기 위해서 6이 어디있는지 알고 있어야 한다. (6의 next를 이용해서 새로운 노드를 지정해야하기 때문)
-while (--k!==0)                     // 2. k가 0이 될 때 까지 다음 노드의 next값을 temp1에 저장한다.
+// 23의 자리에 새로운 노드를 위치시키기 위해서 6이 어디있는지 알고 있어야 한다.
+// (6의 next를 이용해서 새로운 노드를 지정해야하기 때문)
+while (--k!==0)
+// 2. k가 0이 될 때 까지 다음 노드의 next값을 temp1에 저장한다.
     temp1 = temp1.next
 
-Vertex temp2 = temp1.next           //3. next를 이용하여 temp2에 다음 노드값을 저장
-
-Vertex newVertex = new Vertex(input)//4. 값이 n인 새로운 node를 생성한다.
-
-temp1.next = newVertex              //5. 前node의 next가 추가되는 node를 가르키게 한다.
-
-newVertex.next = temp2              //6 추가된 node의 next가 後node를 가르키게 한다.
+Vertex temp2 = temp1.next
+//3. next를 이용하여 temp2에 다음 노드값을 저장
+Vertex newVertex = new Vertex(input)
+//4. 값이 n인 새로운 node를 생성한다.
+temp1.next = newVertex
+//5. 前node의 next가 추가되는 node를 가르키게 한다.
+newVertex.next = temp2
+//6 추가된 node의 next가 後node를 가르키게 한다.
 
 ```
 
@@ -109,7 +114,6 @@ newVertex.next = temp2              //6 추가된 node의 next가 後node를 가
 
 ![image](https://user-images.githubusercontent.com/33077726/56077617-4e28c980-5e19-11e9-8710-4f129983db48.png)
 ![image](https://user-images.githubusercontent.com/33077726/56077618-508b2380-5e19-11e9-9064-dc4292f4f38b.png)
-![image](https://user-images.githubusercontent.com/33077726/56077619-51bc5080-5e19-11e9-966e-715056aac30e.png)
 ![image](https://user-images.githubusercontent.com/33077726/56077795-49fdab80-5e1b-11e9-81eb-92b58b5efc8f.png)
 ![image](https://user-images.githubusercontent.com/33077726/56077796-4b2ed880-5e1b-11e9-96f6-f06a149e4790.png)
 ![image](https://user-images.githubusercontent.com/33077726/56077799-4cf89c00-5e1b-11e9-8956-7445534fa530.png)
@@ -117,21 +121,26 @@ newVertex.next = temp2              //6 추가된 node의 next가 後node를 가
 ![image](https://user-images.githubusercontent.com/33077726/56077802-51bd5000-5e1b-11e9-980f-d6c932900856.png)
 ![image](https://user-images.githubusercontent.com/33077726/56077803-53871380-5e1b-11e9-9b75-48f07bbcedde.png)
 
-이렇게 해서 90을 3번째 인덱스에 위치시켰다.
+#### 이렇게 해서 90을 3번째 인덱스에 위치시킬 수 있다.
 
 ### 특정한 위치(k)에 있는 Element 삭제하기(delete)
 
 ```java
-Vertex current = head               //1. head를 이용해 시작점(첫번째 노드)를 찾는다.
+Vertex current = head
+//1. head를 이용해 시작점(첫번째 노드)를 찾는다.
 
 while (--k!==0)//k가 0이 아니면
-    current = current.next          //2. 두번 째 노드로 이동
+    current = current.next
+    //2. 두번 째 노드로 이동
 
-Vertex toBeDeleted = current.next   //3. 이동이 끝나면, 이동한 노드 다음 노드를 삭제하기 전 변수에 담는다. 삭제해버리면 다음 노드의 정보(next)를 알 수 없기 때문.
+Vertex toBeDeleted = current.next
+//3. 이동이 끝나면, 이동한 노드 다음 노드를 삭제하기 전 변수에 담는다. 삭제해버리면 다음 노드의 정보(next)를 알 수 없기 때문.
 
-current.next = current.next.next    //4. 삭제할 node의 next를 현재 노드의 next에다가 넣어준다.
+current.next = current.next.next
+//4. 삭제할 node의 next를 현재 노드의 next에다가 넣어준다.
 
-delete toBeDeleted                  //5. 삭제할 node의前 node의 next가 삭제할 node의 後node의 next로 바뀌었다면 삭제한다.
+delete toBeDeleted
+//5. 삭제할 node의前 node의 next가 삭제할 node의 後node의 next로 바뀌었다면 삭제한다.
 
 ```
 
@@ -178,4 +187,5 @@ return temp1.value      //4. 해당 node의 값을 return 해준다.
 ### 참고한 사이트
 
 [자료구조의 이해를 돕는 사이트](https://visualgo.net/en/list?slide=1)
+
 [openTutorials dateStructure](https://opentutorials.org/module/1335)
