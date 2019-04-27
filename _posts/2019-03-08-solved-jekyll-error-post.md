@@ -1,7 +1,7 @@
 ---
 title: "Github.io Blog, Jekyll 에러 해결기록"
 date: "2019-03-08 08:03:00"
-categories: github error jekyll 開発日記
+categories: github error jekyll
 author_profile: true
 read_time: true
 toc: true #Table Of Contents 목차 보여줌

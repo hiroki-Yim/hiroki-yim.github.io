@@ -1,7 +1,7 @@
 ---
 title: "aws s3를 이용하여 리소스 리스팅하기"
 date: "2019-03-30 21:00:00"
-categories: aws s3 開発日記
+categories: Study AWS
 author_profile: true
 read_time: true
 toc: true #Table Of Contents 목차 보여줌

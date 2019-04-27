@@ -1,6 +1,6 @@
 ---
-title: "AWS를 이용해 프로젝트를 옮겨보자 ()."
-date: "2019-04-13 20:10:00"
+title: "AWS를 이용해 프로젝트를 옮겨보자"
+date: "2019-04-27 20:10:00"
 categories: study AWS
 author_profile: true
 read_time: true
@@ -11,8 +11,6 @@ toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
 ---
 
 # AWS란?
-
-![image](https://user-images.githubusercontent.com/33077726/56800720-b2ef1580-6856-11e9-9bce-492b9d8b8ede.png)
 
 A. Amazon Web Services의 약자로, 네트워킹을 기반으로 가상 컴퓨터(ex.centOS)와 저장공간(Storage),
 
@@ -42,13 +40,17 @@ Q. AWS얘기가 나오면 항상 따라오는 Cloud computing이란 뭘까?
 
 _회원가입 및 크레딧 등록 이후의 과정부터 설명_
 
-0. 서버를 구축할 리전을 선택한다.
+### 서버를 구축할 리전을 선택한다.
+
+![image](https://user-images.githubusercontent.com/33077726/56852928-2f1f5100-695c-11e9-973a-04e8e7d89a35.png)
+
+_제발 한국인이면 한국리전 사용합시다._
 
 ---
 
 [IAM 설정](https://tech.cloud.nongshim.co.kr/2018/10/11/%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-aws-%EC%9B%B9%EA%B5%AC%EC%B6%95-2-iam-%EC%9C%A0%EC%A0%80-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0/)
 
-1. EC2 대시보드에 있는 Create Instance를 누른 뒤 구축하고 싶은 OS의 프리티어 버전을 고른다.(AMI)
+### EC2 대시보드에 있는 Create Instance를 누른 뒤 구축하고 싶은 OS의 프리티어 버전을 고른다.(AMI)
 
 ![image](https://user-images.githubusercontent.com/33077726/56801249-f433f500-6857-11e9-8a74-d52176048e54.png)
 
@@ -62,13 +64,13 @@ _회원가입 및 크레딧 등록 이후의 과정부터 설명_
 
 ---
 
-2. 마지막으로 설정한 인스턴스를 검토한다.
+### 마지막으로 설정한 인스턴스를 검토한다.
 
 ![image](https://user-images.githubusercontent.com/33077726/56802529-40ccff80-685b-11e9-92bb-5310422d4a7d.png)
 
 ---
 
-3. AWS 서비스를 사용하기 위한 Private, public Key 설정
+### AWS 서비스를 사용하기 위한 Private, public Key 설정
 
 시작하기(Launch)버튼으로 AWS를위한 Key를 설정한다.
 
@@ -87,7 +89,7 @@ Window의 경우에는 putty와 같은 가상 단말기 프로그램을 이용�
 
 ---
 
-4. ssh로 AWS 접속하기.
+### ssh로 AWS 접속하기.
 
 여기선 Window에서 putty를 이용하여 ssh로 접속하는 방법을 사용하겠다.
 
@@ -109,7 +111,7 @@ ubuntu로 접속 시
 
 ---
 
-5. 서버를 구축하기 위한 패키지 설치(Laravel)
+### 서버를 구축하기 위한 패키지 설치(Laravel)
 
 [Installing Laravel on Ubuntu 18.04 LTS](https://www.howtoforge.com/tutorial/install-laravel-on-ubuntu-for-apache/)
 
@@ -136,7 +138,7 @@ PHP, LARAVEL, COMPOSER, git, node.js, npm 설치
 
 ---
 
-6. 설정이 끝났다면 옮길 프로젝트의 git을 clone한다.
+### 설정이 끝났다면 옮길 프로젝트의 git을 clone한다.
 
 - github clone 순서
 
@@ -162,7 +164,7 @@ ip주소만 알면 어디서든지 접속하여 동일한 화면을 볼 수 있�
 
 나는 여기서 godaddy와 같은 dns사이트를 이용하여 1년간 .space라는 주소를 구매하여 사용하고 있다.
 
-### 주의
+## 주의
 
 나는 EC2를 사용하는 김에 데이터베이스도 AWS의 서비스인 RDS를 이용하여 구축하였다.
 
