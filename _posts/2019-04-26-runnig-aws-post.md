@@ -140,7 +140,8 @@ PHP, LARAVEL, COMPOSER, git, node.js, npm 설치
 
 ### 설정이 끝났다면 옮길 프로젝트의 git을 clone한다.
 
-- github clone 순서
+- github clone 순서 (laravel 기준)
+  var/www/html
 
 1. clone repository
 2. sudo chmod -R 755 repository/
