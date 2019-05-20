@@ -35,7 +35,6 @@ toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
 이 때, 핸들링하는 방법에 대해 구글링 하던 도중 [S3 Bucket Listing](https://github.com/rufuspollock/s3-bucket-listing)이라는 git repository를 발견 하였다!(띠-용)
 이 라이브러리는 기존 존재하는 HTML문서에 Bucket에 대한 정보만 입력하고, 해당 Bucket에 Root에 넣어두기만 해도
 자동으로 Bucket의 모든 폴더를 listing해주었다.
-![image](https://user-images.githubusercontent.com/33077726/55275706-47845780-532d-11e9-9518-9338379e5571.png)
 
 바로 개발중인 프로젝트에 적용해보았더니 아주 잘 동작하였다.
 ![image](https://user-images.githubusercontent.com/33077726/55275719-7e5a6d80-532d-11e9-88e5-0d44b60113e4.png)
