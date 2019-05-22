@@ -1,6 +1,6 @@
 ---
 title: "깃허브에서 협업하기 (라라벨)"
-date: 2019-03-07 10:41:00
+date: "2019-03-07 10:41:00"
 categories: github contributing
 author_profile: true
 read_time: true
