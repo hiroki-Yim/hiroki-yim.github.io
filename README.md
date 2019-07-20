@@ -1,16 +1,16 @@
 ## About
 
-### 임홍기(弘基（Hiroki）)
+### hiroki-yim(林弘基)
 
 皆を楽しませる web フルスタックエンジニアを目指しています。<br/>
-今後、開発中感じたことや勉強したことを整理してポスティングする予定です。
+開発中感じたことや勉強したことを整理してポスティングする予定です。
 
 ## [Go To Website](https://hiroki-yim.github.io/)
 
 ## Personal Blog
 
-본 블로그는 [Jekyll mmistakes themes](https://github.com/mmistakes/minimal-mistakes) 을 기반으로 작성되었습니다.<br/>
-사용된 기술은 다음과 같습니다.
+当ブログは[Jekyll mmistakes themes](https://github.com/mmistakes/minimal-mistakes)を基づいて解説されました。<br/>
+使われた技術は次をご覧ください。
 
 ## Notable features
 
@@ -25,7 +25,7 @@
 - [Google Analytics](https://www.google.com/analytics/) support.
 - UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Italian (Italiano), **Japanese**, **Korean**, Malayalam, Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Turkish (Türkçe), and Vietnamese.
 
-## Installation(설치방법)
+## Installation(設置方法)
 
 There are three ways to install: as a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible), or forking/directly copying all of the theme files into your project.
 
